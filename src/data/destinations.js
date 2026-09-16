@@ -1,0 +1,80 @@
+export const destinations = [
+  {
+    id: "paris",
+    name: "Paris",
+    country: "France",
+    region: "Europe",
+    emoji: "🇫🇷",
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+    description: "A timeless city of art, architecture, cafés and unforgettable evenings.",
+    tags: ["Culture", "Food", "Romance"],
+    countryApiName: "France",
+    latitude: 48.8566,
+    longitude: 2.3522
+  },
+  {
+    id: "tokyo",
+    name: "Tokyo",
+    country: "Japan",
+    region: "Asia",
+    emoji: "🇯🇵",
+    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1200&q=80",
+    description: "A high-energy blend of modern innovation, tradition, food and nightlife.",
+    tags: ["City", "Food", "Technology"],
+    countryApiName: "Japan",
+    latitude: 35.6762,
+    longitude: 139.6503
+  },
+  {
+    id: "bali",
+    name: "Bali",
+    country: "Indonesia",
+    region: "Asia",
+    emoji: "🇮🇩",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=80",
+    description: "Tropical beaches, lush rice terraces, temples and relaxing island experiences.",
+    tags: ["Beach", "Nature", "Relax"],
+    countryApiName: "Indonesia",
+    latitude: -8.3405,
+    longitude: 115.092
+  },
+  {
+    id: "new-york",
+    name: "New York",
+    country: "United States",
+    region: "Americas",
+    emoji: "🇺🇸",
+    image: "https://images.unsplash.com/photo-1496588152823-86ff7695e68f?auto=format&fit=crop&w=1200&q=80",
+    description: "An iconic global city packed with neighborhoods, museums, food and entertainment.",
+    tags: ["City", "Shopping", "Culture"],
+    countryApiName: "United States",
+    latitude: 40.7128,
+    longitude: -74.006
+  },
+  {
+    id: "switzerland",
+    name: "Swiss Alps",
+    country: "Switzerland",
+    region: "Europe",
+    emoji: "🇨🇭",
+    image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1200&q=80",
+    description: "Dramatic mountains, alpine villages, scenic trains and outdoor adventures.",
+    tags: ["Mountains", "Nature", "Adventure"],
+    countryApiName: "Switzerland",
+    latitude: 46.8182,
+    longitude: 8.2275
+  },
+  {
+    id: "dubai",
+    name: "Dubai",
+    country: "United Arab Emirates",
+    region: "Middle East",
+    emoji: "🇦🇪",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
+    description: "Futuristic architecture, desert experiences, luxury shopping and vibrant dining.",
+    tags: ["Luxury", "Shopping", "Desert"],
+    countryApiName: "United Arab Emirates",
+    latitude: 25.2048,
+    longitude: 55.2708
+  }
+];
